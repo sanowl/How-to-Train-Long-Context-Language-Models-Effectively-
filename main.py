@@ -5,7 +5,8 @@ import openai
 import numpy as np
 from torch.utils.data import DataLoader
 from transformers import (
-    AutoModelForCausalLM,
+    Auto
+    dModelForCausalLM,
     AutoTokenizer,
     get_cosine_schedule_with_warmup,
 )
